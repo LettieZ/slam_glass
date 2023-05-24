@@ -1,7 +1,7 @@
 
 #ifdef MACOSX
 // This is to overcome a possible bug in Apple's GCC.
-#define isnan(x) (x==FP_NAN)
+#define std::isnan(x) (x==FP_NAN)
 #endif
 
 /**Just scan match every single particle.

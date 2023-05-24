@@ -5,6 +5,7 @@
     <node pkg="slam_glass" type="slam_glass" name="slam_glass" output="screen"> 
       <remap from="scan" to="base_scan"/>
       <param name="odom_frame" value="odom_combined"/>
+      <!-- <remap from="horizontal_laser_2d" to="base_scan"/> -->
       <param name="map_udpate_interval" value="5.0"/>
       <param name="maxUrange" value="16.0"/>
       <param name="sigma" value="0.05"/>

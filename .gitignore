@@ -1,0 +1,8 @@
+*.o
+*.d
+*.so
+include/gmapping/
+.vscode/settings.json
+gmapping_export/bin/
+gmapping_export/global.mk
+installed

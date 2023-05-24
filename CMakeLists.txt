@@ -77,7 +77,7 @@ catkin_package(
 ###########
 ## Build ##
 ###########
-#add_definitions(-DVISUALISE)
+add_definitions(-DVISUALISE)
 
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
